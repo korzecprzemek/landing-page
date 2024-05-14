@@ -45,9 +45,8 @@ p{
 .hero{
     display: flex;
     flex-direction:row;
-    justify-content: center;
     background-color:#1F2937;
-    gap:64px;
+    gap:px;
     padding: 78px;
     padding-top:0;
     color:#E5E7EB;
@@ -56,6 +55,7 @@ p{
 
 .hero-content{
     display:flex;
+    margin-right:auto;
     flex-direction:column;
     justify-content:center;
     flex-basis:356px;
@@ -64,7 +64,6 @@ p{
 
  .hero-maintext{
     font-size:48px;
-    margin-right:auto;
     margin-bottom:0;
     color:#F9FAF8;
     font-weight:900;
@@ -85,7 +84,7 @@ p{
     cursor:grab;
 }
 .button-call{
-    border:solid white;
+    border:1px solid white;
 }
 
 .picture{
@@ -174,4 +173,3 @@ p{
     font-weight:100;
     color:#E5E7EB;
 }
-
